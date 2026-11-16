@@ -1,0 +1,33 @@
+
+# Archivos temporales de Windows
+Thumbs.db
+Desktop.ini
+*.tmp
+*.bak
+
+# Archivos temporales de editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos de logs
+*.log
+logs/
+
+# Configuración y credenciales privadas
+.env
+.env.*
+!.env.example
+config/conexion.local.php
+
+# Dependencias PHP (si posteriormente utilizas Composer)
+/vendor/
+
+# Archivos temporales y caché
+/cache/
+/tmp/
+
+# Archivos subidos por usuarios (si posteriormente agregas esta función)
+/uploads/*
+!/uploads/.gitkeep
