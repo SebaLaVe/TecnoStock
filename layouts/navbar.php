@@ -1,7 +1,7 @@
 <nav class="navbar bg-1 fg-2">
     <div class="container-fluid">
 
-        <a class="navbar-brand" href="index.php">
+        <a class="navbar-brand" href="/TecnoStock/index.php">
             TecnoStock
         </a>
 
@@ -43,13 +43,13 @@
                 <ul class="navbar-nav me-auto mb-2">
 
                     <li class="nav-item">
-                        <a class="nav-link active" href="index.php">
+                        <a class="nav-link active" href="/TecnoStock/index.php">
                             Inicio
                         </a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">
+                        <a class="nav-link" href="/TecnoStock/productos/listar.php">
                             Productos
                         </a>
                     </li>
@@ -61,7 +61,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="sesion/logout.php">
+                        <a class="nav-link" href="/TecnoStock/sesion/logout.php">
                             Cerrar sesión
                         </a>
                     </li>
