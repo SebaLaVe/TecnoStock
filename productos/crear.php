@@ -212,7 +212,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <?php endif; ?>
 
         
-        <form action="" method="POST">
+        <form action="" method="POST" id="formProducto">
 
             <div class="mb-3">
                 <label for="codigo" class="form-label">Código del producto</label>
@@ -302,6 +302,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js"
             crossorigin="anonymous">
     </script>
+
+    <script src="/TecnoStock/js/validaciones.js"></script>
 
 </body>
 </html>

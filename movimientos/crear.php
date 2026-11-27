@@ -249,7 +249,7 @@
 
         </table>
 
-        <form method="POST">
+        <form method="POST" id="formMovimiento">
 
             <div class="mb-3">
                 <label for="cantidad" class="form-label">Cantidad</label>
@@ -301,5 +301,7 @@
         src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js"
         crossorigin="anonymous">
 </script>
+
+<script src="/TecnoStock/js/validaciones.js"></script>
 </body>
 </html>
