@@ -10,22 +10,32 @@ if (!isset($_SESSION['usuario'])) {
 
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TecnoStock</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe"
-      crossorigin="anonymous">
-    <meta charset="UTF-8">
-</head>
-<body>
-    <?php include 'layouts/navbar.php'; ?>
-    <script type="module"
-        src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL"
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TecnoStock</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe"
         crossorigin="anonymous">
-</script>
- <h2>Bienvenido a TecnoStock</h2>
-</body>
+        <meta charset="UTF-8">
+    </head>
+
+    <body>
+        <?php include 'layouts/navbar.php'; ?>
+
+        <div class="container d-flex justify-content-center align-items-center"
+            style="min-height: 80vh;">
+
+            <h1 class="text-center">
+                ¡Bienvenido/a
+                <?php echo htmlspecialchars($_SESSION['nombre'], ENT_QUOTES, 'UTF-8'); ?>!
+            </h1>
+
+        </div>
+        <script type="module"
+            src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL"
+            crossorigin="anonymous">
+        </script>
+    </body>
 </html>

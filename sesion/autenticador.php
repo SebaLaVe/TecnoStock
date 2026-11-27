@@ -15,6 +15,7 @@ if ($usuario && password_verify($clave, $usuario['clave_hash'])) {
     session_start();
 
     $_SESSION['usuario'] = $usuario['correo'];
+    $_SESSION['nombre'] = $usuario['nombre'];
 
     header("Location: ../index.php");
     exit();
