@@ -34,7 +34,7 @@ unset($_SESSION['error']);
     <section class="card" style="max-width: 320px; width: 100%">
     
         <div class="card-body">
-          <h4 class="card-title text-center">Tecno Stock ☝️🤓</h4>
+          <h4 class="card-title text-center">Tecno Stock</h4>
           <form action="autenticador.php" method="POST" class="formulario">
               <div class="mb-3">
                 <label for="correo" class="form-label">Correo</label>
